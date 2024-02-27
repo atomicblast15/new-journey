@@ -23,7 +23,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30px;
-    place-items: center;
+    place-items: middle, left;
 }
 
 .nutrition hr {
@@ -99,7 +99,9 @@ li {
 }
 
 hr {
-    color: hsl(30, 10%, 34%);
+    color: hsl(30, 7%, 77%);
+    border-color: hsl(30, 7%, 77%);
+    margin-top: 10px;
 }
 
 h1,
@@ -111,4 +113,8 @@ h3 {
 
 .value {
     font-weight: 700;
+}
+
+.attribution {
+    margin-top: 20px;
 }
