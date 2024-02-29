@@ -1,0 +1,43 @@
+.visible {
+  border: 2px solid;
+  height: 75px;
+  overflow: visible;
+}
+
+.hidden {
+  border: 2px solid;
+  height: 75px;
+  overflow: hidden;
+}
+
+.clip {
+  border: 2px solid;
+  height: 75px;
+  overflow: clip;
+  overflow-clip-margin: 20px;
+}
+
+.scroll {
+  border: 2px solid;
+  height: 75px;
+  overflow: scroll;
+}
+
+.auto {
+  border: 2px solid;
+  height: 75px;
+  overflow: auto;
+}
+
+div {
+  margin-top: 2px;
+  margin-bottom: 100px;
+  background-color: aquamarine;
+}
+h1 {
+  text-align: center;
+  margin: 1px;
+}
+p {
+  margin: 1px;
+}
