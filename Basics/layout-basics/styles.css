@@ -1,0 +1,58 @@
+* {
+  /*  factor in the size of margin and padding when calculatin elemnt sizes with css*/
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header h1 {
+  background-color: hsl(0, 0%, 71%);
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: hsl(0, 0%, 51%);
+  height: 40px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+aside {
+  width: 20%;
+  float: left;
+  padding: 10px;
+}
+
+section {
+  width: 40%;
+  float: left;
+}
+
+article {
+  width: 40%;
+  float: left;
+}
+
+footer {
+  display: block;
+  clear: both;
+  background-color: hsl(0, 0%, 71%);
+  margin: 0px;
+  padding: 50px;
+  text-align: center;
+}
+
+/*  This is for people using a mobile device (need to make sure the website work for people with smaller screens) */
+@media screen and (max-width: 600px) {
+  aside,
+  section,
+  article {
+    width: 100%;
+  }
+}
